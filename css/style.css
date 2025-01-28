@@ -54,5 +54,25 @@ a {
 
 .contacts-link:hover,
 .contacts-link:fokus {
-  color:#404bbf
+  color:#404bbf;
+}
+ 
+.h1 {
+    color: #FFFF;
+}
+
+.h2 {
+  color: #FFFF;
+}
+
+#text, #text-two, #text-three, #text-four {
+  color: #434455;
+}
+
+.p {
+    color: #434455;
+}
+
+#name-one, #name-two, #name-three, #name-four {
+    color: #2e2f42;
 }
