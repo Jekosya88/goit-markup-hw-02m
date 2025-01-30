@@ -13,13 +13,13 @@ a {
 }
 
 .logo{
-   font-family: "Raleway", sans-serif;
-   font-weight: 700; 
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color:#4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; 
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
 }
      
 .header-logo .logo-part {
@@ -33,11 +33,15 @@ a {
    color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:fokus  {
-    color: #404bbf
+.nav-link:hover{
+
+    color: #404bbf;
 }
- 
+.nav-link:fokus{
+    color: #404bbf;
+}
+
+
 .contacts {
     font-style: normal;
 }
@@ -46,12 +50,16 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #434445;
+    font-style: normal;
 }
 
-.contacts-link:hover,
-.contacts-link:fokus {
+.contacts-link:hover{
   color:#404bbf;
+}
+
+.contacts-link:fokus{
+    color: #404bbf
 }
  
 .h1 {
@@ -63,25 +71,30 @@ a {
 }
 
 #text {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+    
     color: #2e2f42;
 
 }
 
 
-
-
-#text, #text-two, #text-three, #text-four {
-  color: #434455;
+#text, 
+#text-two, 
+#text-three,
+ #text-four {
+  color: #2e2f42;
 }
 
 .p {
     color: #434455;
 }
 
-#name-one, #name-two, #name-three, #name-four {
+#name-one,
+ #name-two,
+  #name-three,
+   #name-four {
     color: #2e2f42;
+}
+ 
+[type="button"] {
+    background-color: #4D5AE5;
 }
