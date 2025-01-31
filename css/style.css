@@ -43,18 +43,18 @@ a {
     font-size:16px ;
     line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #2e2f42;
+   color: #434455;
 }
 
 .nav-link-hover {
 
-    color: #404bbf;
+    background-color: #404bbf;
 }
 .nav-link-fokus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
-
+ 
 .contacts {
     font-style: normal;
 }
@@ -68,11 +68,11 @@ a {
 }
 
 .contacts-link:hover {
-  background-color:#404bbf;
+  color:#404bbf;
 }
 
 .contacts-link-normal {
- background-color: #404bbf
+  color: #404bbf
 }
  
 .h1 {
@@ -180,14 +180,25 @@ text-align: center;
 .portfolio {
     background-color: #FFFFFF
 }
-.portfolio-title {  
-color: #2e2f42;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
+.portfolio-item {  
+
+color: rgb(67, 68, 85);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize;
+text-align: left;
+}
+.portfolio-subtitle  {
+
+color: rgb(46, 47, 66);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: left;
 }
  
 .footer-title {
@@ -204,6 +215,6 @@ letter-spacing: 0.02em;
 text-align: left;
 }
 
-.span {
+.logo-header-logo{
     color: #f4f4fd;
 }
