@@ -103,10 +103,15 @@ a {
  
 [type="button"] {
     background-color: #4D5AE5;
+
 }
  
 .hero {   
 background: rgb(46, 47, 66);
+}
+
+.button {
+    background-color: #404BBF;
 }
 
 
@@ -155,7 +160,7 @@ line-height: 1.2;
 }
 
 .team {
- background-color: #F4F4FD;
+ background-color: #FFFFFF;
 }
 .team-title {
    
@@ -163,7 +168,7 @@ color: rgb(46, 47, 66);
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
-letter-spacing: 0.02em;
+letter-spacing: 0.02em; 
 text-align: center;
 text-transform: capitalize
 }
@@ -213,8 +218,9 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
+text-transform: uppercase;
 }
 
-.logo-header-logo{
+.logo-part{
     color: #f4f4fd;
 }
