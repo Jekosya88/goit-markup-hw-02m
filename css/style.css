@@ -127,7 +127,7 @@ color: #ffff;
 
 }
 
-.hero-btn {
+.cursor-pointer {
 
 font-size: 16px;
 font-weight: 500;
@@ -141,8 +141,6 @@ color: #ffff;
 }
 
 .features-item-text {
-
-color: rgb(67, 68, 85);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -157,10 +155,22 @@ font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
 .team {
- background-color: #FFFFFF;
+ background-color: #F4F4FD;
+}
+
+.team-item {
+    
+color: #434455;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
 }
 .team-title {
    
@@ -185,7 +195,19 @@ text-align: center;
 .portfolio {
     background-color: #FFFFFF
 }
-.portfolio-item {  
+.portfolio-title{
+  
+color: #2e2f42;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+}
+
+.portfolio-position {  
 
 color: rgb(67, 68, 85);
 font-family: Roboto;
