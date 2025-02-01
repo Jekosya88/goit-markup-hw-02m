@@ -74,7 +74,7 @@ a {
 .contacts-link:focus {
   color: #404bbf
 }
- 
+ border
 .h1 {
     color: #FFFF;
 }
@@ -188,8 +188,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
-}
-
+} 
 .portfolio {
     background-color: #FFFFFF
 }
@@ -205,7 +204,7 @@ text-align: center;
 text-transform: capitalize;
 }
 
-.portfolio-position {  
+.portfolio-item {  
 
 color: rgb(67, 68, 85);
 font-family: Roboto;
@@ -254,3 +253,4 @@ text-transform: uppercase;
 .logo-part{
     color: #f4f4fd; 
 }
+
