@@ -87,9 +87,7 @@ a {
 .p {
     color: #434455;
 }
- .order-button {
-    cursor: pointer;
- }
+
  .order-button:hover{
     background-color: #404BBF;
  }
@@ -123,13 +121,15 @@ color: #ffff;
 
 }
 
-.cursor-pointer {
+.order-button {
 
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffff;
+cursor: pointer;
+ 
 }
 
 .features {
@@ -161,7 +161,7 @@ letter-spacing: 0.02em;
     background-color: #FFFFFF;
 }
 .team-item {
-    
+background-color: #FFFFFF;
 color: #434455;
 font-family: Roboto;
 font-size: 16px;
@@ -193,7 +193,7 @@ text-align: center;
 .portfolio {
     background-color: #FFFFFF
 }
-.portfolio-title{
+.portfolio-item {
   
 color: #2e2f42;
 font-family: Roboto;
