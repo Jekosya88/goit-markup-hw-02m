@@ -15,7 +15,6 @@ a {
 .visually-hidden {
     position: absolute;
     border: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -137,7 +136,6 @@ cursor: pointer;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
 color: #434455;
 }
 
@@ -209,7 +207,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
+
 }
 .portfolio-subtitle  {
 
@@ -219,7 +217,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: left;
+
 }
  
 .footer-title {
@@ -243,7 +241,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
 text-transform: uppercase;
 }
 
