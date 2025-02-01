@@ -83,24 +83,19 @@ a {
   color: #FFFF;
 }
 
-#text {
-    
-    color: #2e2f42;
-
-}
-
-#text, 
-#text-two, 
-#text-three,
- #text-four {
-  color: #2e2f42;
-}
-
+ 
 .p {
     color: #434455;
 }
+ .order-button {
+    cursor: pointer;
+ }
+ .order-button:hover,
+ .order-button:focus {
+    border-color: #404bbf;
+    color: white;
+ }
 
- 
 [type="button"] {
     background-color: #4D5AE5;
 
@@ -159,7 +154,7 @@ letter-spacing: 0.02em;
 }
 
 .team {
- background-color: #F4F4FD;
+ background-color: #FFFFFF;
 }
 
 .team-item {
@@ -244,5 +239,5 @@ text-transform: uppercase;
 }
 
 .logo-part{
-    color: #f4f4fd;
+    color: #f4f4fd; 
 }
